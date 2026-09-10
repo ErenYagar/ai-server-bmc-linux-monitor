@@ -2,6 +2,7 @@ bin/
 runtime/*.json
 runtime/*.log
 runtime/*.tmp
+runtime/*.lock
 runtime/triage-*/
 mock_hwmon/*.missing
 mock_hwmon/*.tmp
