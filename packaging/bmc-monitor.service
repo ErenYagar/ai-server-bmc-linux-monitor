@@ -1,0 +1,12 @@
+[Unit]
+Description=AI Server BMC Monitor Simulator
+
+[Service]
+Type=simple
+WorkingDirectory=%h/ai-server-bmc-linux-monitor
+ExecStart=%h/ai-server-bmc-linux-monitor/bin/bmc-monitor
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=default.target
