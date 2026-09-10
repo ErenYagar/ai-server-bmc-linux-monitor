@@ -1,0 +1,9 @@
+bin/
+runtime/*.json
+runtime/*.log
+runtime/*.tmp
+runtime/triage-*/
+mock_hwmon/*.missing
+mock_hwmon/*.tmp
+__pycache__/
+*.pyc
